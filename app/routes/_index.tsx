@@ -25,7 +25,7 @@ export default function Index() {
                 <h2 className={"font-bold text-xl m-5"}>New ViewBox:</h2>
                 <p>{viewbox}</p>
             </div>
-            <div className={"absolute opacity-0"} id={"svg"}>{parse(input)}</div>
+            <div className={"absolute invisible h-[1px] w-[1px]"} id={"svg"}>{parse(input)}</div>
         </div>
     );
 }
